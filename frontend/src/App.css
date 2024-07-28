@@ -1,0 +1,215 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.signup-main-div{
+  display: flex;
+
+}
+.signup-div{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.signup-text-div{
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(209, 209, 210);
+  text-align: center;
+  padding-top: 100px;
+  border-top-right-radius: 30px;
+  
+}
+.signup-text-div h1{
+  font-weight:500;
+}
+
+.signup-div input{
+  width: 300px;
+  height:30px;
+  border: 1px solid rgb(111, 111, 111);
+  border-radius: 10px;
+  padding: 5px;
+}
+.signup-div label{
+  align-self: flex-start;
+  margin-left: 150px;
+}
+
+.signup-div button{
+  height: 30px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.blog-nav-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.blog-icon-side{
+  display: flex;
+  gap: 10px;
+  padding: 10px 0px 0px 160px;
+
+}
+.blog-text-div{
+  padding-top: 10px;
+  font-weight: 600;
+  margin-left: 30px;
+  font-size: larger;
+
+}
+.Book-icon{
+height:30px;
+width: 30px;
+
+}
+.blog-publish-side{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  margin-right: 150px;
+}
+.blog-publish-side button{
+  background-color: rgb(5, 5, 6);
+  border-radius: 50px;
+  color: white;
+  padding: 5px;
+  border: 1px solid black;
+}
+.card-main-div{
+  width: 100vw;
+  height: 220px;
+  padding-top: 20px ;
+}
+.card-submain-div{
+  width: 80%;
+  margin:0px 10%;
+  height: 180px;
+  padding-left: 10px;
+  padding-top: 20px;
+ 
+  box-shadow: 10px 10px 10px rgb(221, 217, 217);
+}
+.horizontal-line{
+  width: 80%; 
+  margin-left: 10%;
+}
+.card-title-div{
+  font-size:x-large;
+  font-weight: bold;
+}
+.card-author-div{
+  font-size:medium;
+  font-weight:500 ;
+}
+.card-content-div{
+  font-size: larger;
+}.nav-div{
+  display: flex;
+  gap: 10px;
+}
+.avatar-div{
+background-color: rgb(47, 46, 46);
+color: white;
+font-size: smaller;
+padding: 3px 5px 3px 5px;
+border-radius: 50%;
+}
+.card-time-div{
+  margin-top: 40px;
+  color: rgb(158, 159, 160);
+
+}
+.card-readmore-div{
+  font-weight: bold;
+}
+
+.blog-input-div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.blog-input-div input{
+ border: none; 
+}
+.blog-input-div :focus{
+  outline: none;
+}
+.blog-input1-div{
+  width: 70% ;
+  margin-left: 150px;
+  height: 100px;
+  font-size: 50px;
+  }
+.blog-input2-div{
+  width: 70%;
+  margin-left: 150px;
+  font-size: x-large;
+
+}
+.appbar-main-div{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: rgb(209, 209, 210);
+  /* border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px; */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+.appbar-vichaar-div{
+  display: flex;
+  }
+.appbar-vi-div{
+  font-size:xx-large;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.appbar-chaar-div{
+  padding-top: 15px;
+  font-size: larger;
+  font-weight:bold;
+}
+.appbar-center-home{
+  border-radius: 50px 0px 0px 50px;
+  background: black;
+  color:rgb(179, 179, 179) ;
+  font-size:x-large;
+  border:1px solid black;
+  padding: 5px;
+}
+.appbar-center-home:hover{
+background-color:aliceblue;
+color: black;
+}
+.appbar-center-writeblog{
+  border-radius: 0px 50px 50px 0px;
+  border: 1px solid black;
+  font-size:large ;
+  padding: 11px 5px 6px 6px;
+  background-color:aliceblue;
+
+}
+.appbar-center-writeblog:hover{
+background-color: black;
+color: aliceblue;
+}
+.appbar-user-div{
+  display: flex;
+  gap: 5px;
+  margin-right: 20px;
+  padding-top: 20px;
+  font-weight:500;
+
+}
